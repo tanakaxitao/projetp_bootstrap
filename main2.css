@@ -1,0 +1,86 @@
+.navbar-nav .nav-link.active {
+  color: white;
+}
+.nav-link {
+  text-align: center;
+}
+
+header,
+footer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.473);
+  background-color: #0957e9d8;
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-family: "Bungee", cursiva;
+  font-family: "Roboto", sem serifa;
+  font-family: "Sedgwick Ave Display", cursiva;
+}
+
+.brands-block {
+  margin-left: 32px;
+  justify-content: space-between;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.price {
+  margin: 16px 0;
+  display: block;
+}
+
+.price del {
+  color: #9b9797;
+  font-size: 14px;
+}
+
+.form-campo {
+  margin-bottom: 16px;
+}
+
+.form-campo label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+  width: 100%;
+  display: block;
+  padding: 8px;
+}
+
+.form-campo textarea {
+  resize: none;
+  height: 120px;
+}
+
+form {
+  max-width: 360px;
+}
+
+form button {
+  max-width: 120px;
+}
+
+footer li {
+  display: inline;
+  list-style: none;
+}
+
+footer li img {
+  height: 22px;
+  margin-left: 32px;
+}

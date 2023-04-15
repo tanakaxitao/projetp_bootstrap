@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@700&family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="leab/bootstrap.min.css" />
+    <link rel="stylesheet" href="main2.css" />
+    <title>GB suplementos</title>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <h1>GB suplementos</h1>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promocoes">promoçoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">contato</a>
+              </li>
+            </ul>
+          </nav>
+          <button id="btn-checar-carrinho" class="btn" type="button">
+            <div class="background-carrinho">
+              <img
+                src="https://www.gsuplementos.com.br/tema/growth/img/svgs/cart-ab.svg"
+                alt="carrinho"
+              />
+              <span class="qtdCarrinho topo-carrinho-quantidade">0</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div
+        id="carousel-exemplo"
+        class="carousel carousel-fade slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div data-bs-ts-interval="3000" class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/Kratos-Novo.jpg?v=1677187247"
+              alt="kratos"
+            />
+          </div>
+          <div data-bs-ts-interval="3000" class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/BANNER-MAX.jpg?v=1663275068"
+              alt="hórus"
+            />
+          </div>
+          <div data-bs-ts-interval="3000" class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/Apocalypse-novo.jpg?v=1663881440"
+              alt=" Apocalypse-novo"
+            />
+          </div>
+          <div data-bs-ts-interval="3000" class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/Thermo-night.jpg?v=1666712773"
+              alt="Thermo-night"
+            />
+          </div>
+        </div>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="next"
+          class="carousel-control-next"
+          type="button"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="3"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-2">
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+      <section class="home-brands-block" id="home-brands">
+        <div class="container">
+          <div class="brands-block d-block  ">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/1_dcf79540-8fae-4fe2-9a5a-66d1f1e849b3_200x.png?v=1614345795"
+              alt=""
+            />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/2_200x.png?v=1614345795"
+              alt=""
+            />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/3_200x.png?v=1614345795"
+              alt=""
+            />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/4_200x.png?v=1614345795"
+              alt=""
+            />
+            <img
+              src="https://cdn.shopify.com/s/files/1/0517/3592/0800/files/5_200x.png?v=1614345795"
+              alt=""
+            />
+          </div>
+    </header>
+    <hr class="mt-2">
+    <section class="produtos" id="produtos">
+      <h3 class="display-1 text-center mb-4">Promoções</h3>
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+            <div class="card text-center bg-light">
+              <img src="https://cdn.shopify.com/s/files/1/0517/3592/0800/products/Apocalypse-Melancia-450g-min_755bbb8c-18b0-4880-81da-d0ac1325eaf5_800x.png?v=1663183012" class="card-img-top">
+              <div class="card-header"></div>
+              <div class="card-body"><strong>
+                APOCALYPSE 450G DCX NUTRITION
+              </strong>
+              </div>
+              <div class="card-footer">
+                <div class="price">
+                  <del>R$150,00</del>
+                  <strong>R$122,90</strong>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+          <div class="card text-center bg-light">
+            <img src="https://cdn.shopify.com/s/files/1/0517/3592/0800/products/NIGHTUP-MELANCIA_1024x1024.png?v=1659392268" class="card-img-top">
+            <div class="card-header"></div>
+            <div class="card-body"><strong>
+              NIGHT UP - DCX NUTRITION
+            </strong>
+            </div>
+            <div class="card-footer">
+              <div class="price">
+                <del>R$120,00</del>
+                <strong>R$98,90</strong>
+              </div>
+            </div>
+            
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+        <div class="card text-center bg-light">
+          <img src="https://www.mundodossuplementos.com.br/lojas/981/img/interno/prd_341763_i_best_whey_bar_(display_com_12_barra)_atlhetica_nutrition.jpeg" class="card-img-top">
+          <div class="card-header"></div>
+          <div class="card-body"><strong>
+            BEST WHEY BAR (DISPLAY COM 12 BARRA) ATLHETICA NUTRITION
+          </strong>
+          </div>
+          <div class="card-footer">
+            <div class="price">
+              <del>R$69,48</del>
+              <strong>R$77,20</strong>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+      <div class="card text-center bg-light">
+        <img src="https://www.mundodossuplementos.com.br/lojas/981/img/interno/prd_308886_i_power-protein-bar-12-un-de-41g-max-titanium.jpg" class="card-img-top">
+        <div class="card-header"></div>
+        <div class="card-body"><strong>
+          POWER PROTEIN BAR 12 UN DE 41G MAX TITANIUM
+        </strong>
+        </div>
+        <div class="card-footer">
+          <div class="price">
+            <del>R$84,97</del>
+            <strong>R$94,41</strong>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+    <div class="card text-center bg-light">
+      <img src="https://cdn.shopify.com/s/files/1/0517/3592/0800/products/WHEY-IN-100--BAUNILHA-ME3287-907g-1000x1000_1024x1024.png?v=1645796488" class="card-img-top">
+      <div class="card-header"></div>
+      <div class="card-body"><strong>
+        WHEY PROTEIN 100% PURE INTEGRALMEDICA
+      </strong>
+      </div>
+      <div class="card-footer">
+        <div class="price">
+          <del>R$150,00</del>
+          <strong>R$119,900</strong>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+  <div class="card text-center bg-light">
+    <img src="https://www.mundodossuplementos.com.br/lojas/981/img/interno/prd_225971_i_best-whey-900g-atlhetica.jpg" class="card-img-top">
+    <div class="card-header"></div>
+    <div class="card-body"><strong>
+      BEST WHEY (900G) ATLHETICA NUTRITION
+    </strong>
+    </div>
+    <div class="card-footer">
+      <div class="price">
+        <del>R$252,38</del>
+        <strong>R$235,98</strong>
+      </div>
+    </div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+  <div class="card text-center bg-light">
+    <img src="https://www.mundodossuplementos.com.br/lojas/981/img/interno/prd_274497_i_whey_grego_coffee_(900g)_nutrata.jpg" class="card-img-top">
+    <div class="card-header"></div>
+    <div class="card-body"><strong>
+      WHEY GREGO COFFEE CREAM (900G) NUTRATA
+
+    </strong>
+    </div>
+    <div class="card-footer">
+      <div class="price">
+        <del>R$157,44</del>
+        <strong>R$174,93</strong>
+      </div>
+    </div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+  <div class="card text-center bg-light">
+    <img src="https://cdn.shopify.com/s/files/1/0517/3592/0800/products/download_01d7b240-2aad-4900-a93b-005828e8fd47_1024x1024.jpg?v=1625775416" class="card-img-top">
+    <div class="card-header"></div>
+    <div class="card-body"><strong>
+      WHEY GOURMET SERIES (900G) - OPTIMUM NUTRITION
+    </strong>
+    </div>
+    <div class="card-footer">
+      <div class="price">
+        <del>R$254,44</del>
+        <strong>R$229,00</strong>
+      </div>
+    </div>
+</div>
+</div>
+<div class="col-xl-4 col-lg-3 col-md-6 col-sm-4 d-flex align-items-stretch">
+  <div class="card text-center bg-light">
+    <img src="https://www.mundodossuplementos.com.br/lojas/981/img/interno/prd_287600_i_vitamini_juice_(280g)_essential_nutrition(1).jpg" class="card-img-top">
+    <div class="card-header"></div>
+    <div class="card-body"><strong>
+      APOCALYPSE 450G DCX NUTRITION
+    </strong>
+    </div>
+    <div class="card-footer">
+      <div class="price">
+        <del>R$150,00</del>
+        <strong>R$122,90</strong>
+      </div>
+    </div>
+</div>
+</div>
+      </div>
+    </section>
+
+    
+    
+
+    <section id="contato">
+      <div class="container">
+        <h2>Entre em contato</h2>
+        <form>
+          <div class="form-campo">
+            <label for="nome">nome:<label>
+            <input type="text" id="nome" name="nome" />
+          </div>
+          <div class="form-campo">
+            <label for="telefone">telefone:</label>
+            <input type="tel" id="telefone" name="telefone" />
+          </div>
+          <div class="form-campo">
+            <label for="nome">Email:</label>
+            <input type="email" id="Email" name="email"/>
+          </div>
+          <div class="form-campo">
+            <label for="item-interesse">item de  interesse:</label>
+            <input type="text" id="item-interesse" name="item-interesse" />
+          </div>
+          <div class="form-campo">
+            <label for="mensagem">mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+          </div>
+          <button class="btn btn-danger" type="submit">enviar</button>
+        </form>
+      </div>
+    </section>
+    <hr class="mt-2">
+
+    
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div class="toast" id="mensagens-alerta">
+        <header class="toast-header">
+          <strong>importante</strong>
+        </header>
+        <div class="toast-body">
+          seu carrinho está vazio!
+          <div class="mt-2 pt-2 border-top">
+            <button
+              data-bs-dismiss="toast"
+              class="btn btn-danger"
+              type="button"
+            >
+              descartar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-expand-lg">
+        <footer class="footer navbar-fixed-bottom w-100">
+          <p>2023 &copy; GB suplementos todos os direitos reservados</p>
+          <ul class="">
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100010041460424"
+              >
+                <img src="icones/facebook.png" alt="icon-facebook" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/gabriellopes_amc/"
+                target="_blank"
+              >
+                <img src="./icones/instagram.png" alt="icon-instagram" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCq7fNDlOS_t3bLQ4QVPSbAw"
+                target="_blank"
+              >
+                <img src="./icones/youtube.png" alt="icon-youtube" />
+              </a>
+            </li>
+          </ul>
+            </footer>
+      </div>
+    </div>
+
+    
+
+    <script src="leab/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
